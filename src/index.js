@@ -8,7 +8,7 @@ mensaje: '¡Aplicación desplegada con Dokploy!',
 institucion: 'Universidad del Quindío',
 programa: 'Ingeniería de Sistemas y Computación',
 curso: 'Administración de Infraestructura de TI',
-plataforma: 'Dokploy PaaS'
+plataforma: 'Dokploy PaaS',
 fecha: new Date().toISOString()
 });
 });
