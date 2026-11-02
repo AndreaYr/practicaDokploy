@@ -28,8 +28,7 @@ node_version: process.version,
 platform: process.platform,
 arch: process.arch,
 memory: {
-total: Math.round(require('os').totalmem() / 1024 / 1024) + '
-MB',
+total: Math.round(require('os').totalmem() / 1024 / 1024) + ' MB',
 free: Math.round(require('os').freemem() / 1024 / 1024) + ' MB'
 }
 });
